@@ -22,3 +22,10 @@
 ### Use of OR, AND , BETWEEN;
 ### Use of LIKE, NOT LIKE and IN. Use of joker % (means zero, one or more caracters) and _ (means only one caracter);
 ### NULL values. IS NULL or IS NOT NULL/
+### Function, clause, operator;
+### numeric AVG(), SUM();
+### non numeric MAX(), MIN(), COUNT();
+### ROUND (number_to_round, decimal_places);
+### +,-,*,/; <> of Arithmetic Functions;
+### ORDER BY field_one, field_two (if draw) - ASC or DESC/
+### GROUP BY - and HAVING <> WHERE
