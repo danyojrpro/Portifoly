@@ -13,7 +13,7 @@
 ### 1. Web Applications: Browser-based tools provided by cloud databases. Examples: BigQuery Console, Snowflake Web UI. Easy to start, nothing to install. 2. Desktop Applications: Software you install on your computer with a friendly interface. Examples: DBeaver, TablePlus, DataGrip;
 ### To connect, you need to provide: Server address: Where the database lives (URL or IP address), Username: Your account name, Password: Your account password, Database name: Which specific database to use;
 
-## SQL Intermediate (doing now):
+## SQL Intermediate (done):
 ### COUNT() function used to count the amount of data. Can be used with AS, and *;
 ### Leitura do (Estilo)[https://www.sqlstyle.guide/pt-br/];
 ### ; - Indica o fim de uma consulta;
@@ -29,3 +29,22 @@
 ### +,-,*,/; <> of Arithmetic Functions;
 ### ORDER BY field_one, field_two (if draw) - ASC or DESC/
 ### GROUP BY - and HAVING <> WHERE
+
+## Junction of data on SQL (doing now):
+### Junction INNER JOIN:
+'''
+FROM table
+INER JOIN tabel_2
+ON table.x = tabel_2.x
+'''
+### Can be used AS for tables;
+### USING (x) - for the shared rown beteen tables;
+### Types of relationship between tables: One-to-One, One-to-Many, Many-to-Many; 
+### Multi joins table
+'''
+SELECT *
+FROM left_table
+INNER JOIN right_table
+ON left_table.id = right_table.id
+  AND left_table.date = right_table.date;
+'''
